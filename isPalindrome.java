@@ -23,7 +23,7 @@ public class isPalindrome {
     private static boolean ispalindrome(int number) {
         
         int rev = 0;
-        int ori = num;
+        int ori = number;
         while(number != 0){
             rev = rev * 10 + number % 10;
             number /= 10;
